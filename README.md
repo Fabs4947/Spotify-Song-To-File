@@ -37,6 +37,19 @@ The primary use case is to provide streamers with a way to show their viewers wh
 4. Select ```current_song.txt``` or the changed file name.
 5. Customize the source as you desire.
 
+### Running it via .bat file
+
+Due to currently unresolved issues from running the script directly, it is recommended to run it using a .bat file.
+
+```bat
+@echo off
+cd **location of the file**
+python main.py
+pause
+```
+
+Like this, you can run it from any location on your PC.
+
 ### Settings
 
 #### Polling Interval
